@@ -41,6 +41,6 @@ Test:
 For unit tests and integration tests, please run:
 java ToyRobotTest
 
-
+Run:
 To run the program, please run the following and input the commands:
 java ToyRobotApp

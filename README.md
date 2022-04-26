@@ -30,7 +30,7 @@ move that would cause the robot to fall must be ignored.
 
 
 <h2>Requirement</h2>
-The application is built with JDK 8 in Centos 7. Please install the following 2 packages to build the project: <br>
+The application is built with JDK 8 in Centos 7 and tested in Centos 7 and Windows 10. Please install the following 2 packages to build the project: <br>
 yum install java-1.8.0-openjdk<br>
 yum install java-1.8.0-openjdk-devel.x86_64
 

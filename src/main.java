@@ -3,6 +3,7 @@ class ToyRobotApp {
 		String input = "";
 		Boolean running = true;
 		ToyRobot toyRobot = new ToyRobot();
+		System.out.println("Please enter command:");
 		while (running == true) {
 			input = System.console().readLine().toUpperCase().trim();
 			if (input.equals("EXIT")) {

@@ -52,7 +52,7 @@ class ToyRobot {
 						place(command.substring(5));
 					}
 					else {
-						System.out.println("INVALID COMMAND " + command.length());
+						System.out.println("INVALID COMMAND " + command);
 					}
 				}
 				else {

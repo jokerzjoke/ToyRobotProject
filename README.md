@@ -35,7 +35,7 @@ yum install java-1.8.0-openjdk<br>
 yum install java-1.8.0-openjdk-devel.x86_64
 
 <h2>Build</h2>
-To build the project, please extract the files in this repository and run:<br>
+To build the project, please extract the files in source directory and run:<br>
 javac *java
 
 <h2>Test</h2>

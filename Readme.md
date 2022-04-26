@@ -1,5 +1,5 @@
 <h1>Toy Robot Coding Challenge</h1>
-
+<h2>Description</h2>
 This console application is a simulation of a toy robot moving on a square table top, of dimensions 5 units x 5 units. There are no
 other obstructions on the table surface. The robot is free to roam around the surface of the table, but must be prevented
 from falling to destruction. Any movement that would result in the robot falling from the table must be prevented,
@@ -24,33 +24,24 @@ Provide test data to exercise the application.
 It is not required to provide any graphical output showing the movement of the toy robot.
 The application should handle error states appropriately and be robust to user input.
 
-Constraints:
-
+<h2>Constraints</h2>
 The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot. Any
 move that would cause the robot to fall must be ignored.
 
 
-Requirement:
-
-
+<h2>Requirement</h2>
 The application is built with JDK 8 in Centos 7. Please install the following 2 packages to build the project: 
 yum install java-1.8.0-openjdk
 yum install java-1.8.0-openjdk-devel.x86_64
 
-Build:
-
-
+<h2>Build</h2>
 To build the project, please extract the files in this repository and run:
 javac *java
 
-Test:
-
-
+<h2>Test</h2>
 For unit tests and integration tests, please run:
 java ToyRobotTest
 
-Run:
-
-
+<h2>Run</h2>
 To run the program, please run the following and input the commands:
 java ToyRobotApp

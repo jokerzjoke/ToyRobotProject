@@ -5,12 +5,12 @@ other obstructions on the table surface. The robot is free to roam around the su
 from falling to destruction. Any movement that would result in the robot falling from the table must be prevented,
 however further valid movement commands must still be allowed.
 
-The application can read in commands of the following form -
-PLACE X,Y,F
-MOVE
-LEFT
-RIGHT
-REPORT.
+The application can read in commands of the following form -<br>
+PLACE X,Y,F<br>
+MOVE<br>
+LEFT<br>
+RIGHT<br>
+REPORT<br>
 PLACE will put the toy robot on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST. The origin (0,0)
 can be considered to be the SOUTH WEST most corner. It is required that the first command to the robot is a PLACE
 command, after that, any sequence of commands may be issued, in any order, including another PLACE command. The
@@ -30,18 +30,18 @@ move that would cause the robot to fall must be ignored.
 
 
 <h2>Requirement</h2>
-The application is built with JDK 8 in Centos 7. Please install the following 2 packages to build the project: 
-yum install java-1.8.0-openjdk
+The application is built with JDK 8 in Centos 7. Please install the following 2 packages to build the project: <br>
+yum install java-1.8.0-openjdk<br>
 yum install java-1.8.0-openjdk-devel.x86_64
 
 <h2>Build</h2>
-To build the project, please extract the files in this repository and run:
+To build the project, please extract the files in this repository and run:<br>
 javac *java
 
 <h2>Test</h2>
-For unit tests and integration tests, please run:
+For unit tests and integration tests, please run:<br>
 java ToyRobotTest
 
 <h2>Run</h2>
-To run the program, please run the following and input the commands:
+To run the program, please run the following and input the commands: <br>
 java ToyRobotApp
